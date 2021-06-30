@@ -1,0 +1,32 @@
+.main {
+    padding-top: 85px;
+    &__logo {
+        max-width: 155px;
+        img {
+            width: 100%;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 105px;
+    }
+    &__descr {
+        max-width: 540px;
+    }
+    &__text {
+        margin-top: 24px;
+        @extend %subtext;
+        font-size: 18px;
+        line-height: 28px;  
+
+    }
+    &__img {
+        max-width: 475px;
+        max-height: 531px;
+        img {
+            width: 100%;
+        }
+    }
+}
