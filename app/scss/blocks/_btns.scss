@@ -1,0 +1,31 @@
+.btn {
+    outline: none;
+    @extend %blue;
+    @extend %kumbh-bold;
+    border: none;
+    padding: 14px 41px;
+    cursor: pointer;
+    border-radius: 28px;
+    box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 32px;
+    &:hover {
+        @extend %blue-light;
+    }
+    &__card {
+        background-color: rgba($color: #5175FF, $alpha: 0.15);
+        color: #5175FF;
+        &:hover {
+            background-color: rgba($color: #5175FF, $alpha: 0.35); 
+        }
+    }
+    &__pro {
+        background-color: #fff;
+        &:hover {
+            background-color: #fff;
+            color: #829CFF;
+        }
+    }
+}
