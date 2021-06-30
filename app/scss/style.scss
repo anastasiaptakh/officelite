@@ -7,18 +7,21 @@
 @import 'blocks/_title.scss';
 @import 'blocks/_main.scss';
 @import 'blocks/_btns.scss';
+@import 'blocks/_cards.scss';
 
 * {
 	@extend %kumbh-regular;
 }
 
 body {
+  position: relative;
 	height: 100%;
 	@extend %main-background;
 
 }
 
 .container{
+  position: relative;
   max-width: 1110px;
   margin: 0 auto;
   padding: 0 15px;
