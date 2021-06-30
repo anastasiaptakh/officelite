@@ -1,0 +1,13 @@
+.title {
+    @extend %main-text;
+    @extend %kumbh-bold;
+    font-size: 56px;
+    line-height: 64px;
+    &__card {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    &__pro {
+        color: #fff;
+    }
+}
